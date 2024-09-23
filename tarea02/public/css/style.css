@@ -1,0 +1,58 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+/* 
+Colores selcionados de 
+https://accessiblepalette.com/ 
+*/
+body {
+    background-color: #FEEDB9; /* Cambia el color de fondo */
+}
+
+h1 {
+    color: #5D2822;
+    font-family: monospace;
+}
+
+h2, h3 {
+    color: #8B6C27;
+}
+
+p {
+    color: #473514;
+}
+
+ul, ol {
+    color: #1A401C
+}
+
+hr {
+    height: 5px; /* Ajusta la altura */
+    background-color: #FECF49;
+    border: none; /* Elimina el borde predeterminado */
+}
+
+pre {
+    font-family: monospace
+}
+
+a {
+    color: #003C5A; 
+    text-decoration: underline; /* Controla el subrayado del enlace */
+  }
+  
+  a:visited {
+    color: #AC3CAC; /* #BF5FBF */
+  }
+  
+  a:hover {
+    color: #B85143; 
+    text-decoration: none; /* Sin subrayado */
+    background-color: #FECF49; 
+  }
+  
+  a:active {
+    color: #409D44; 
+    padding: 5px; /* Añade espacio alrededor del texto del enlace */
+    border: 1px solid #383838; /* Crea un borde alrededor del enlace */
+  }
